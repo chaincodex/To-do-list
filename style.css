@@ -1,0 +1,16 @@
+body {
+    background-color: darkgrey;
+    
+}
+
+#container {
+   
+    margin-top: 10px;
+}
+#input {
+    border-radius: 2px;
+}
+
+#myBtn {
+    background-color: green;
+}
