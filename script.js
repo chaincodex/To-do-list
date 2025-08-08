@@ -3,6 +3,9 @@ let myBtn = document.getElementById("myBtn");
 let container = document.getElementById("container");
 
 myBtn.addEventListener("click", function () {
+    if (text.value === "") {
+        alert("Please type something")
+    }
     const newDiv = document.createElement("div");
     newDiv.textContent = input.value;
     container.appendChild(newDiv);
@@ -14,3 +17,5 @@ input.addEventListener("keypress", function (event) {
         document.getElementById("myBtn").click()
     }
 });
+
+
